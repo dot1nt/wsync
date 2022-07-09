@@ -1,0 +1,5 @@
+<-- Dotfiles -->
+-import ~/.scripts/dotfiles.sync
+
+<-- Other -->
+-import ~/.scripts/other.sync

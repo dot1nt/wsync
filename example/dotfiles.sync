@@ -1,0 +1,7 @@
+~/.config/bspwm   ->   ~/Backup/.config/
+~/.config/sxhkd   ->   ~/Backup/.config/
+~/.config/polybar ->   ~/Backup/.config/
+~/.config/dunst   ->   ~/Backup/.config/
+
+$(pacman -Qet > ~/Backup/packages)
+$(cd ~/Backup/.config && git add . && git commit -m "backup $(date +%s)" && git push)
